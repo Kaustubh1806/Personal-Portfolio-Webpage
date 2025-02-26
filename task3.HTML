@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SABALE DINESH - Portfolio</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <h1>ABHANGKAR KAUSTUBH</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello, I am Kaustubh Abhangkar, a passionate web developer who specializes in front-end . I love creating dynamic and user-friendly web applications that provide value to users.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="Chat app.png" alt="Project 1">
+                    <h3>Real time Chat Application</h3>
+                    <p>This is a real-time chat application built using Node.js, Socket.io, and Express, which enables users to send instant messages to each other.</p>
+                    <a href="https://github.com/DineshSable/Real-Time-Chat-Application.git" target="_blank">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="E learn.jpg" alt="Project 2">
+                    <h3>E learning platform</h3>
+                    <p>This is a fully functional online learning platform designed to provide users with a seamless experience for accessing educational content, completing courses, and tracking their learning progress.</p>
+                    <a href="https://github.com/DineshSable/E-Learning-Platform-UI.git" target="_blank">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Quiz.png" alt="Project 3">
+                    <h3>Interactive Quiz Application</h3>
+                    <p>This is an interactive quiz application designed to provide an engaging and user-friendly experience for testing knowledge across various topics. </p>
+                    <a href="https://github.com/DineshSable/Interactive-Quiz-Application.git" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Abhangkar Kaustubh. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
